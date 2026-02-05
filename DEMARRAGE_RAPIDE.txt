@@ -1,0 +1,84 @@
+╔═══════════════════════════════════════════════════════════════════════════════╗
+║                     TERRASSE - DÉMARRAGE ULTRA RAPIDE                        ║
+║                           ( 30 SECONDES )                                    ║
+╚═══════════════════════════════════════════════════════════════════════════════╝
+
+▶️ ÉTAPE 1 : ASSEMBLER (5 secondes)
+═══════════════════════════════════════════════════════════════════════════════
+
+✓ Mettre TOUS ces fichiers dans un même dossier :
+  
+  index.html
+  articles.html
+  about.html
+  services.html
+  contact.html
+  styles.css
+  script.js
+  
+  (Les 4 fichiers .txt et le .docx dans le même dossier aussi, si besoin)
+
+
+▶️ ÉTAPE 2 : OUVRIR (10 secondes)
+═══════════════════════════════════════════════════════════════════════════════
+
+✓ Double-cliquer sur : index.html
+
+✓ Le site s'ouvre dans votre navigateur = PRÊT
+
+
+▶️ ÉTAPE 3 : TESTER (15 secondes)
+═══════════════════════════════════════════════════════════════════════════════
+
+✓ Accueil → Cliquer "Découvrir nos ressources"
+✓ Page Articles → Cliquer sur filtres (Énergie, Climat, etc.)
+✓ Page Contact → Descendre et voir FAQ accordéon
+✓ Toutes les pages → Navigation au top fonctionne
+✓ Appuyer F12 → Redimensionner pour voir version mobile 📱
+
+
+C'EST TOUT ! 🎉
+
+Le site est 100% fonctionnel et prêt pour la présentation de demain.
+
+
+════════════════════════════════════════════════════════════════════════════════
+CE QUE VOUS AVEZ
+════════════════════════════════════════════════════════════════════════════════
+
+✅ 5 pages HTML complètes et fonctionnelles
+✅ Design professionnel (simple, efficace, sans emojis)
+✅ 2 articles approfondis (2500+ mots chacun)
+✅ Interactivité (filtres, FAQ, formulaire)
+✅ Responsive (fonctionne sur tous les appareils)
+✅ Document Word pour présentation
+✅ Guides complets pour personnalisation
+✅ Zones prêtes pour vos images (10 endroits)
+
+════════════════════════════════════════════════════════════════════════════════
+SI VOUS VOULEZ AJOUTER VOS IMAGES
+════════════════════════════════════════════════════════════════════════════════
+
+1. Créer un dossier : images/
+2. Y mettre vos images JPG/PNG
+3. Ouvrir les fichiers HTML avec un éditeur de texte
+4. Chercher "placeholder-image" et remplacer par <img src="images/...">
+5. Consulter GUIDE_IMAGES.md pour les dimensions exactes
+
+════════════════════════════════════════════════════════════════════════════════
+POUR LA PRÉSENTATION DE DEMAIN
+════════════════════════════════════════════════════════════════════════════════
+
+1. Mettre les 7 fichiers HTML/CSS/JS dans un dossier
+2. Double-cliquer index.html (ça ouvre le site)
+3. Naviguer naturellement en cliquant
+4. Souligner : design simple = professionnel
+5. Montrer responsivité (F12 puis redimensionner)
+6. Distribuer le document Word à la fin
+
+C'est ça qui vous fera gagner : la SIMPLICITÉ et le PROFESSIONNALISME.
+
+
+════════════════════════════════════════════════════════════════════════════════
+C'EST PARTI ! 🚀
+════════════════════════════════════════════════════════════════════════════════

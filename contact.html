@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Terrasse Côte d'Ivoire</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fas fa-leaf"></i>
+                <span>Terrasse</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="articles.html">Articles</a></li>
+                <li><a href="about.html">À propos</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <h1>Nous Contacter</h1>
+        <p>Vos questions et engagement pour l'environnement ivoirien nous intéressent</p>
+    </section>
+
+    <!-- Contact Content -->
+    <section class="contact-section">
+        <div class="contact-container">
+            
+            <!-- Contact Info -->
+            <div class="contact-info">
+                <h2>Informations de Contact</h2>
+                
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h3>Email</h3>
+                        <p><a href="mailto:contact@terrasse.ci">contact@terrasse.ci</a></p>
+                        <p>Nous répondons sous 48 heures</p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <div>
+                        <h3>Téléphone</h3>
+                        <p><a href="tel:+22507686567">+225 07 68 65 67 14</a></p>
+                        <p>Lun-Ven : 8h-17h (heure locale)</p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h3>Adresse</h3>
+                        <p>Terrasse Environnement</p>
+                        <p>Plateau, Abidjan</p>
+                        <p>Côte d'Ivoire</p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <i class="fas fa-clock"></i>
+                    <div>
+                        <h3>Horaires</h3>
+                        <p>Lundi - Vendredi : 8h - 17h</p>
+                        <p>Samedi : Sur rendez-vous</p>
+                        <p>Fuseau horaire GMT+0</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Form -->
+            <div class="contact-form-wrapper">
+                <h2>Envoyez-nous un Message</h2>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Nom Complet</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Adresse Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Sujet</label>
+                        <select id="subject" name="subject" required>
+                            <option value="">Sélectionnez un sujet</option>
+                            <option value="information">Information / Question</option>
+                            <option value="collaboration">Collaboration</option>
+                            <option value="correction">Correction / Erreur</option>
+                            <option value="feedback">Retour d'expérience</option>
+                            <option value="autre">Autre</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="6" required></textarea>
+                    </div>
+
+                    <div class="form-group checkbox">
+                        <input type="checkbox" id="terms" name="terms" required>
+                        <label for="terms">J'accepte que mes données soient traitées selon notre politique de confidentialité</label>
+                    </div>
+
+                    <button type="submit" class="submit-button">Envoyer le Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <h2>Questions Fréquemment Posées</h2>
+        <div class="faq-container">
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>Comment puis-je contribuer à Terrasse en Côte d'Ivoire ?</h3>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>Nous cherchons des experts locaux, agriculteurs, écologistes et jeunes passionnés. Contactez-nous pour discuter des opportunités de collaboration sur les enjeux environnementaux ivoiriens.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>Vos contenus prennent-ils en compte la réalité ivoirienne ?</h3>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>Oui, absolument. Nous nous concentrons spécifiquement sur la Côte d'Ivoire : déforestation, cacao, agriculture, biodiversité locale, et solutions adaptées au contexte ivoirien.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>À quelle fréquence mettez-vous à jour vos articles ?</h3>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>Nous publions de nouveaux articles mensuellement et mettons à jour nos contenus en fonction des nouvelles données climatiques et des initiatives ivoiriennes.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>Puis-je utiliser vos contenus dans mon établissement scolaire ?</h3>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>Oui, avec attribution appropriée. Nos ressources sont conçues pour l'éducation. Contactez-nous pour les kits pédagogiques adaptés aux lycées et universités ivoiriennes.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>Comment rester informé des nouveaux articles ?</h3>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>Vous pouvez nous suivre sur nos réseaux sociaux ou vous abonner à notre newsletter pour recevoir les dernières publications sur l'environnement ivoirien.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>Avez-vous des ressources pour les agriculteurs ivoiriens ?</h3>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>Oui, nous proposons des guides pratiques sur l'agriculture durable, l'agroforesterie, et l'adaptation climatique. Consultez notre section Services pour plus d'informations.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Terrasse</h4>
+                <p>Une plateforme d'information dédiée aux enjeux climatiques et environnementaux de la Côte d'Ivoire.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Navigation</h4>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="articles.html">Articles</a></li>
+                    <li><a href="about.html">À propos</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Ressources</h4>
+                <ul>
+                    <li><a href="#">GIEC - Rapports</a></li>
+                    <li><a href="#">Nations Unies - Climat</a></li>
+                    <li><a href="#">Accord de Paris</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Terrasse. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

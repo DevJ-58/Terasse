@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Articles - Terrasse Côte d'Ivoire</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fas fa-leaf"></i>
+                <span>Terrasse</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="articles.html" class="active">Articles</a></li>
+                <li><a href="about.html">À propos</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <h1>Nos Articles</h1>
+        <p>Ressources complètes sur les enjeux environnementaux de la Côte d'Ivoire</p>
+    </section>
+
+    <!-- Filter Categories -->
+    <section class="filter-section">
+        <div class="filter-container">
+            <button class="filter-btn active" data-filter="all">Tous</button>
+            <button class="filter-btn" data-filter="forets">Forêts</button>
+            <button class="filter-btn" data-filter="agriculture">Agriculture</button>
+            <button class="filter-btn" data-filter="eau">Eau</button>
+            <button class="filter-btn" data-filter="action">Actions</button>
+        </div>
+    </section>
+
+    <!-- Articles Grid -->
+    <section class="articles-section">
+        <div class="articles-container">
+            
+            <!-- Article 1 -->
+            <article class="article-full article-full-two-col" data-category="forets">
+                <div class="article-image-wrapper">
+                    <div class="article-header">
+                        <img src="deforestation.jpg" alt="La Déforestation en Côte d'Ivoire" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                </div>
+                <div class="article-main">
+                    <span class="category-tag">Forêts</span>
+                    <span class="date">Février 2024</span>
+                    <h2>La Déforestation en Côte d'Ivoire : Enjeu Critique pour l'Avenir</h2>
+                    <p class="article-excerpt">La Côte d'Ivoire a perdu 65% de sa couverture forestière en six décennies. Cette crise environnementale menace l'économie, la biodiversité et le bien-être de millions de citoyens.</p>
+                    
+                    <div class="article-body">
+                        <h3>L'Ampleur de la Crise en Côte d'Ivoire</h3>
+                        <p>En 1960, la Côte d'Ivoire était couverte de 16 millions d'hectares de forêts tropicales. Aujourd'hui, seulement 2.5 millions d'hectares subsistent. Cette perte catastrophique représente 65% de la couverture forestière du pays. La plupart des forêts denses du sud ont disparu, remplacées par des champs de cacao, de café et par l'expansion urbaine incontrôlée.</p>
+                        
+                        <h3>Les Causes Principales en Contexte Ivoirien</h3>
+                        <p>L'agriculture commerciale, particulièrement la culture du cacao, est responsable de 80% de la déforestation. La Côte d'Ivoire produit 30% du cacao mondial, faisant de cette culture un pilier économique mais aussi un destructeur majeur des forêts. L'exploitation forestière illégale, l'extraction minière, et l'expansion agricole de subsistance accentuent cette destruction.</p>
+                        
+                        <p>Les paysans pauvres, poussés par la nécessité, défrichent les forêts pour créer des champs. Les entreprises agricoles industrielles en font autant pour maximiser les profits. Entre ces deux acteurs, les forêts ivoiriennes disparaissent à un rythme alarmant.</p>
+                        
+                        <h3>Conséquences Désastreuses</h3>
+                        <p>La perte forestière crée une cascade de problèmes : changement climatique local (moins de pluies), perte de revenus futurs (les forêts génèrent ressources et carbone), extinction d'espèces endémiques, réduction de la biodiversité qui attire le tourisme écologique, et dégradation des sols.</p>
+                        
+                        <p>Pour les agriculteurs eux-mêmes, c'est un piège : sans forêts pour réguler le climat, les saisons deviennent imprévisibles. Les récoltes périclitent. Les revenus baissent. C'est un cercle vicieux.</p>
+                        
+                        <h3>Solutions Locales et Réalistes</h3>
+                        <p>La Côte d'Ivoire n'est pas sans ressources. Le pays a lancé des initiatives de reforestation et de conservation. L'agroforesterie - cultiver cacao et café ombragés sous les arbres forestiers - offre une voie prometteuse. Cela protège les forêts tout en maintenant la production agricole.</p>
+                        
+                        <p>L'agriculture durable, l'écotourisme, et les programmes de compensation carbone internationaux offrent des alternatives économiques. La Côte d'Ivoire doit investir dans ces solutions avant qu'il ne soit trop tard.</p>
+                        
+                        <h3>Appel à l'Action pour la Jeunesse Ivoirienne</h3>
+                        <p>Chaque jeune Ivoirien peut contribuer : en favorisant l'agriculture durable, en soutenant les certifications environnementales du cacao, en participant à des projets de reforestation, en éduquant les communautés sur ces enjeux. La forêt ivoirienne est un patrimoine à défendre.</p>
+                    </div>
+                    
+                    <div class="article-meta">
+                        <span><i class="fas fa-user"></i> Équipe Terrasse</span>
+                        <span><i class="fas fa-eye"></i> 2.4k vues</span>
+                        <span><i class="fas fa-share-alt"></i> Partager</span>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Article 2 -->
+            <article class="article-full article-full-two-col article-full-reverse" data-category="agriculture">
+                <div class="article-image-wrapper">
+                    <div class="article-header">
+                        <img src="agriculture.jpg" alt="Agriculture Durable" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                </div>
+                <div class="article-main">
+                    <span class="category-tag">Agriculture</span>
+                    <span class="date">Janvier 2024</span>
+                    <h2>Agriculture Durable : Adapter les Récoltes au Climat Changeant</h2>
+                    <p class="article-excerpt">Les saisons de pluie deviennent imprévisibles. Les agriculteurs ivoiriens doivent adapter leurs pratiques pour survivre et prospérer dans ce nouvel environnement climatique.</p>
+                    
+                    <div class="article-body">
+                        <h3>La Crise Agricole Ivoirienne</h3>
+                        <p>Depuis deux décennies, les agriculteurs ivoiriens observent le même phénomène troublant : les saisons de pluie ne sont plus prévisibles. Ce qui arrivait en avril arrive maintenant en juin. Les récoltes échouent. Les revenus s'effondrent. Pour un paysan dont la survie dépend de ces cycles naturels, c'est une catastrophe existentielle.</p>
+                        
+                        <p>La Côte d'Ivoire, produit majeur de cacao, café et noix de cajou, dépend entièrement d'une agriculture sensible au climat. Quand le climat change, l'économie entière vacille.</p>
+                        
+                        <h3>Causes du Changement Climatique Régional</h3>
+                        <p>La déforestation massive (abordée dans l'article précédent) est le coupable principal. Les forêts régulent le climat local en retenant l'humidité et en créant des précipitations. Quand 65% des forêts disparaissent, le climat local se désèche drastiquement.</p>
+                        
+                        <p>Le changement climatique global amplifie ce problème. L'Afrique de l'Ouest se réchauffe 1.5 fois plus vite que la moyenne mondiale. Les sécheresses sont plus fréquentes et plus sévères. Les tempêtes, quand elles arrivent, sont plus violentes.</p>
+                        
+                        <h3>Solutions d'Adaptation pour les Agriculteurs</h3>
+                        <p><strong>L'agroforesterie :</strong> Cultiver cacao et café sous un couvert d'arbres forestiers protège contre la sécheresse, améliore la qualité du sol, et régénère les forêts. C'est une victoire double.</p>
+                        
+                        <p><strong>Variétés résilientes :</strong> Des cacao, café et noix de cajou résistants à la sécheresse existent. Les gouvernements et organisations agricoles doivent les distribuer aux fermiers.</p>
+                        
+                        <p><strong>Gestion de l'eau :</strong> Collector l'eau de pluie en saison humide pour irriguer en saison sèche. C'est simple mais révolutionnaire pour les régions affectées.</p>
+                        
+                        <p><strong>Diversification :</strong> Ne pas dépendre d'une seule culture. Cultiver fruits, légumes, et cultures locales en parallèle du cacao/café crée de la résilience économique et alimentaire.</p>
+                        
+                        <h3>Politique et Investissement</h3>
+                        <p>Les solutions existent, mais elles requièrent investissement. Les gouvernements doivent financer la recherche agricole, la formation des fermiers, et l'infrastructure pour l'irrigation et la conservation de l'eau.</p>
+                        
+                        <p>Les entreprises agricoles peuvent financer l'agroforesterie en achetant du cacao certifié durable. Les organisations internationales offrent des fonds pour l'adaptation climatique. La clé est d'unir ces forces.</p>
+                        
+                        <h3>Un Avenir Possible</h3>
+                        <p>La Côte d'Ivoire a le potentiel de devenir un leader africain de l'agriculture durable. Avec les bonnes politiques, investissements, et engagement communautaire, la crise climatique agricole peut devenir une opportunité de transformation.</p>
+                    </div>
+                    
+                    <div class="article-meta">
+                        <span><i class="fas fa-user"></i> Équipe Terrasse</span>
+                        <span><i class="fas fa-eye"></i> 1.8k vues</span>
+                        <span><i class="fas fa-share-alt"></i> Partager</span>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Article Summary Cards -->
+            <article class="article-card article-card-two-col article-card-compact" data-category="eau">
+                <div class="article-image">
+                    <img src="ressourceEau.jpg" alt="Ressources en Eau" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <div class="article-content">
+                    <span class="category-tag">Eau</span>
+                    <span class="date">Décembre 2023</span>
+                    <h3>Ressources en Eau : Gestion et Pollution</h3>
+                    <p>Les fleuves et lacs ivoiriens face aux défis de la pollution et de la gestion durable</p>
+                    <a href="#" class="read-more">En savoir plus <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </article>
+
+            <article class="article-card article-card-two-col article-card-compact" data-category="action">
+                <div class="article-image">
+                    <img src="engagement.jpg" alt="10 Gestes pour le Climat" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <div class="article-content">
+                    <span class="category-tag">Actions</span>
+                    <span class="date">Novembre 2023</span>
+                    <h3>10 Gestes pour le Climat en Côte d'Ivoire</h3>
+                    <p>Des actions concrètes pour chaque Ivoirien, du citoyen au décideur politique</p>
+                    <a href="#" class="read-more">Découvrir <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </article>
+
+            <article class="article-card article-card-two-col" data-category="forets">
+                <div class="article-image">
+                    <img src="ParcNationnal.jpg" alt="Parcs Nationaux" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <div class="article-content">
+                    <span class="category-tag">Forêts</span>
+                    <span class="date">Octobre 2023</span>
+                    <h3>Parc Nationaux : Protéger la Biodiversité Ivoirienne</h3>
+                    <p>Les réserves forestières comme derniers refuges de la vie sauvage africaine</p>
+                    <a href="#" class="read-more">Explorer <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Terrasse</h4>
+                <p>Une plateforme d'information dédiée à la compréhension des enjeux climatiques et environnementaux de la Côte d'Ivoire.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Navigation</h4>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="articles.html">Articles</a></li>
+                    <li><a href="about.html">À propos</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Ressources</h4>
+                <ul>
+                    <li><a href="#">GIEC - Rapports</a></li>
+                    <li><a href="#">Nations Unies - Climat</a></li>
+                    <li><a href="#">Accord de Paris</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Terrasse. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
