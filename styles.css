@@ -26,6 +26,7 @@ body {
     color: #2c3e50;
     background-color: #ffffff;
     line-height: 1.6;
+    padding-top: var(--nav-height);
 }
 
 :root {
@@ -38,6 +39,7 @@ body {
     --shadow: 0 4px 6px rgba(45, 80, 22, 0.08);
     --shadow-lg: 0 12px 32px rgba(45, 80, 22, 0.15);
     --shadow-md: 0 8px 20px rgba(45, 80, 22, 0.12);
+    --nav-height: 70px;
     --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -45,9 +47,12 @@ body {
 .navbar {
     background-color: #ffffff;
     border-bottom: 1px solid var(--border-color);
-    position: sticky;
+    position: fixed;
     top: 0;
-    z-index: 1000;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 2000;
     box-shadow: var(--shadow);
 }
 
